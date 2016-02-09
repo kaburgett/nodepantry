@@ -1,0 +1,19 @@
+{
+  "name": "pantry",
+  "version": "0.0.1",
+  "description": "",
+  "main": "pantry.js",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "hbs": "^4.0.0",
+    "mongodb": "^2.1.6",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kate Hill <katelyn.burgett@gmail.com>",
+  "license": "ISC"
+}

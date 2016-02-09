@@ -1,0 +1,43 @@
+table.gridtable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+    text-align: center;
+}
+table.gridtable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+}
+table.gridtable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.tooltip .refImg {
+    opacity: 0;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    transition: opacity .1s;
+}
+.tooltip:active .refImg {
+    opacity: 1;
+    height: auto;
+    width: auto;
+    position: absolute;
+    border-style: solid;
+    border-color: #666;
+}
